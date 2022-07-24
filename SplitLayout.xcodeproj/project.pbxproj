@@ -11,6 +11,7 @@
 		759121F6288C2BD2003AD3D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759121F5288C2BD2003AD3D8 /* ContentView.swift */; };
 		759121F8288C2BD3003AD3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759121F7288C2BD3003AD3D8 /* Assets.xcassets */; };
 		759121FB288C2BD3003AD3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759121FA288C2BD3003AD3D8 /* Preview Assets.xcassets */; };
+		75DA9C26288D5BC7007549FF /* SequenceBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = 75DA9C25288D5BC7007549FF /* SequenceBuilder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DA9C26288D5BC7007549FF /* SequenceBuilder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = SplitLayout;
+			packageProductDependencies = (
+				75DA9C25288D5BC7007549FF /* SequenceBuilder */,
+			);
 			productName = SplitLayout;
 			productReference = 759121F0288C2BD2003AD3D8 /* SplitLayout.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +118,9 @@
 				Base,
 			);
 			mainGroup = 759121E7288C2BD2003AD3D8;
+			packageReferences = (
+				75DA9C24288D5BC7007549FF /* XCRemoteSwiftPackageReference "SequenceBuilder" */,
+			);
 			productRefGroup = 759121F1288C2BD2003AD3D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -332,6 +340,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75DA9C24288D5BC7007549FF /* XCRemoteSwiftPackageReference "SequenceBuilder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andtie/SequenceBuilder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75DA9C25288D5BC7007549FF /* SequenceBuilder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75DA9C24288D5BC7007549FF /* XCRemoteSwiftPackageReference "SequenceBuilder" */;
+			productName = SequenceBuilder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 759121E8288C2BD2003AD3D8 /* Project object */;
 }
