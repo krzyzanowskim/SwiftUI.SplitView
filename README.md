@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/758033/180766261-ad9ce52f-cb9b-4112-bd
 
 # Use
 
-```
+```swift
 import SplitView
 
 struct ContentView: View {
