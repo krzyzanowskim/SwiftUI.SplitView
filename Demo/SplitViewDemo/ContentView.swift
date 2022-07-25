@@ -1,4 +1,5 @@
 import SwiftUI
+import SplitView
 
 struct ContentView: View {
     @State var orientation1: SplitViewOrientation = .horizontal
@@ -7,27 +8,27 @@ struct ContentView: View {
 
     var body: some View {
         SplitView(orientation: $orientation1) {
-            EditorContent()
-            EditorContent()
+            SampleContent()
+            SampleContent()
             SplitView(orientation: $orientation2) {
-                EditorContent()
-                EditorContent()
-                EditorContent()
-                EditorContent()
-                EditorContent()
+                SampleContent()
+                SampleContent()
+                SampleContent()
+                SampleContent()
+                SampleContent()
             }
             .onTapGesture {
                 orientation2.toggle()
             }
-            EditorContent()
-            EditorContent()
-            EditorContent()
+            SampleContent()
+            SampleContent()
+            SampleContent()
             SplitView(orientation: $orientation3) {
-                EditorContent()
-                EditorContent()
-                EditorContent()
-                EditorContent()
-                EditorContent()
+                SampleContent()
+                SampleContent()
+                SampleContent()
+                SampleContent()
+                SampleContent()
             }
             .onTapGesture {
                 orientation3.toggle()
@@ -39,7 +40,7 @@ struct ContentView: View {
     }
 }
 
-struct EditorContent: View {
+struct SampleContent: View {
     @State var color: Color = .Pastel.random(.oklab)
 
     var body: some View {

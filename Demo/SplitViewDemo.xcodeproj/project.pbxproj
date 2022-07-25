@@ -11,22 +11,19 @@
 		759121F6288C2BD2003AD3D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759121F5288C2BD2003AD3D8 /* ContentView.swift */; };
 		759121F8288C2BD3003AD3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759121F7288C2BD3003AD3D8 /* Assets.xcassets */; };
 		759121FB288C2BD3003AD3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759121FA288C2BD3003AD3D8 /* Preview Assets.xcassets */; };
-		75DA9C26288D5BC7007549FF /* SequenceBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = 75DA9C25288D5BC7007549FF /* SequenceBuilder */; };
 		75DA9C28288DC5DE007549FF /* PastelColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA9C27288DC5DE007549FF /* PastelColor.swift */; };
-		75DA9C2A288EAB44007549FF /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA9C29288EAB44007549FF /* SplitView.swift */; };
-		75DA9C2C288EAB72007549FF /* SplitViewOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DA9C2B288EAB72007549FF /* SplitViewOrientation.swift */; };
+		75E7457A288EAF6D00C3CE21 /* SplitView in Frameworks */ = {isa = PBXBuildFile; productRef = 75E74579288EAF6D00C3CE21 /* SplitView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		759121F0288C2BD2003AD3D8 /* SplitLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		754B5116288EB0AC002EA63A /* SplitView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SplitView; path = ../..; sourceTree = "<group>"; };
+		759121F0288C2BD2003AD3D8 /* SplitViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759121F3288C2BD2003AD3D8 /* SplitLayoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitLayoutApp.swift; sourceTree = "<group>"; };
 		759121F5288C2BD2003AD3D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		759121F7288C2BD3003AD3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		759121FA288C2BD3003AD3D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		759121FC288C2BD3003AD3D8 /* SplitLayout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitLayout.entitlements; sourceTree = "<group>"; };
 		75DA9C27288DC5DE007549FF /* PastelColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelColor.swift; sourceTree = "<group>"; };
-		75DA9C29288EAB44007549FF /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
-		75DA9C2B288EAB72007549FF /* SplitViewOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewOrientation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75DA9C26288D5BC7007549FF /* SequenceBuilder in Frameworks */,
+				75E7457A288EAF6D00C3CE21 /* SplitView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,32 +41,32 @@
 		759121E7288C2BD2003AD3D8 = {
 			isa = PBXGroup;
 			children = (
-				759121F2288C2BD2003AD3D8 /* SplitLayout */,
+				759121F2288C2BD2003AD3D8 /* SplitViewDemo */,
 				759121F1288C2BD2003AD3D8 /* Products */,
+				75E74578288EAF6D00C3CE21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		759121F1288C2BD2003AD3D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				759121F0288C2BD2003AD3D8 /* SplitLayout.app */,
+				759121F0288C2BD2003AD3D8 /* SplitViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		759121F2288C2BD2003AD3D8 /* SplitLayout */ = {
+		759121F2288C2BD2003AD3D8 /* SplitViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				754B5116288EB0AC002EA63A /* SplitView */,
 				759121F3288C2BD2003AD3D8 /* SplitLayoutApp.swift */,
 				759121F5288C2BD2003AD3D8 /* ContentView.swift */,
-				75DA9C29288EAB44007549FF /* SplitView.swift */,
-				75DA9C2B288EAB72007549FF /* SplitViewOrientation.swift */,
 				75DA9C27288DC5DE007549FF /* PastelColor.swift */,
 				759121F7288C2BD3003AD3D8 /* Assets.xcassets */,
 				759121FC288C2BD3003AD3D8 /* SplitLayout.entitlements */,
 				759121F9288C2BD3003AD3D8 /* Preview Content */,
 			);
-			path = SplitLayout;
+			path = SplitViewDemo;
 			sourceTree = "<group>";
 		};
 		759121F9288C2BD3003AD3D8 /* Preview Content */ = {
@@ -80,12 +77,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		75E74578288EAF6D00C3CE21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		759121EF288C2BD2003AD3D8 /* SplitLayout */ = {
+		759121EF288C2BD2003AD3D8 /* SplitViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 759121FF288C2BD3003AD3D8 /* Build configuration list for PBXNativeTarget "SplitLayout" */;
+			buildConfigurationList = 759121FF288C2BD3003AD3D8 /* Build configuration list for PBXNativeTarget "SplitViewDemo" */;
 			buildPhases = (
 				759121EC288C2BD2003AD3D8 /* Sources */,
 				759121ED288C2BD2003AD3D8 /* Frameworks */,
@@ -95,12 +99,12 @@
 			);
 			dependencies = (
 			);
-			name = SplitLayout;
+			name = SplitViewDemo;
 			packageProductDependencies = (
-				75DA9C25288D5BC7007549FF /* SequenceBuilder */,
+				75E74579288EAF6D00C3CE21 /* SplitView */,
 			);
 			productName = SplitLayout;
-			productReference = 759121F0288C2BD2003AD3D8 /* SplitLayout.app */;
+			productReference = 759121F0288C2BD2003AD3D8 /* SplitViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 759121EB288C2BD2003AD3D8 /* Build configuration list for PBXProject "SplitLayout" */;
+			buildConfigurationList = 759121EB288C2BD2003AD3D8 /* Build configuration list for PBXProject "SplitViewDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,13 +132,12 @@
 			);
 			mainGroup = 759121E7288C2BD2003AD3D8;
 			packageReferences = (
-				75DA9C24288D5BC7007549FF /* XCRemoteSwiftPackageReference "SequenceBuilder" */,
 			);
 			productRefGroup = 759121F1288C2BD2003AD3D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				759121EF288C2BD2003AD3D8 /* SplitLayout */,
+				759121EF288C2BD2003AD3D8 /* SplitViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -157,9 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				759121F6288C2BD2003AD3D8 /* ContentView.swift in Sources */,
-				75DA9C2A288EAB44007549FF /* SplitView.swift in Sources */,
 				759121F4288C2BD2003AD3D8 /* SplitLayoutApp.swift in Sources */,
-				75DA9C2C288EAB72007549FF /* SplitViewOrientation.swift in Sources */,
 				75DA9C28288DC5DE007549FF /* PastelColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,11 +286,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SplitLayout/SplitLayout.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SplitViewDemo/SplitLayout.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SplitLayout/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SplitViewDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -298,7 +299,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.best.SplitLayout.SplitLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.best.SplitViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,11 +311,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SplitLayout/SplitLayout.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SplitViewDemo/SplitLayout.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SplitLayout/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SplitViewDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -323,7 +324,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.best.SplitLayout.SplitLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.best.SplitViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		759121EB288C2BD2003AD3D8 /* Build configuration list for PBXProject "SplitLayout" */ = {
+		759121EB288C2BD2003AD3D8 /* Build configuration list for PBXProject "SplitViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				759121FD288C2BD3003AD3D8 /* Debug */,
@@ -342,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		759121FF288C2BD3003AD3D8 /* Build configuration list for PBXNativeTarget "SplitLayout" */ = {
+		759121FF288C2BD3003AD3D8 /* Build configuration list for PBXNativeTarget "SplitViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75912200288C2BD3003AD3D8 /* Debug */,
@@ -353,22 +354,10 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		75DA9C24288D5BC7007549FF /* XCRemoteSwiftPackageReference "SequenceBuilder" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/andtie/SequenceBuilder";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.7;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		75DA9C25288D5BC7007549FF /* SequenceBuilder */ = {
+		75E74579288EAF6D00C3CE21 /* SplitView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 75DA9C24288D5BC7007549FF /* XCRemoteSwiftPackageReference "SequenceBuilder" */;
-			productName = SequenceBuilder;
+			productName = SplitView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
