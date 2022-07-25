@@ -48,4 +48,13 @@ private struct SampleContent: View {
 }
 ```
 
+# Contribution
+
 Work in progress 👷‍♂️
+Feel free to Discuss and submit Pull Request
+
+## Design notes
+
+![FYgUFPSXkAAvLdn](https://user-images.githubusercontent.com/758033/180767478-f2522595-31ff-4790-a5ff-e37ec14c8eb0.jpg)
+
+
